@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+    background-color:rgb(8, 0, 5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    }
+
+    h1{
+        text-align:center; 
+
+    }
+
+    * {
+        color: white;
+     }
+    
+
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    
+.crystal{
+    border: 1px solid green;
+    height: 200px;
+    width: 200px;
+}
+
+#win {
+    border: 1px solid green;
+    height: 200px;
+    width: 200px;
+}
+
+#lose {
+    border: 1px solid green;
+    height: 200px;
+    width: 200px;
+}
